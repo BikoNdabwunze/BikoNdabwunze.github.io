@@ -13,7 +13,7 @@ function placeFooter() {
     if (document.body.offsetHeight < window.innerHeight) {
         footer.classList.add('fixed-bottom');
         //changed the margin attribute for the school class
-        school.setAttribute('style', 'margin-left: 175px');
+     
         // double the size of the projects class
         projects.setAttribute('style', 'margin-left: 175px');
 
